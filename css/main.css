@@ -1,0 +1,121 @@
+/* Regole generali */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* regole header */
+
+
+
+header {
+
+  height: 100px;
+}
+
+ul li {
+  display: inline-block;
+  padding-right: 10px;
+  padding-top: 30px;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+/* regole main */
+.container {
+  width: 50%;
+  margin: 0 25%;
+}
+.firstbox {
+  height: 350px;
+
+  margin: 20px 0;
+  position: relative;
+  border-radius: 10px;
+  background-image: url("../img/Unchrted-4.jpg");
+  background-size: contain;
+}
+
+.firstbox p:first-child {
+  color: white;
+  position: absolute;
+  left: 40px;
+  bottom: 65px;
+  font-size: 30px;
+}
+
+.firstbox p:last-child {
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  font-size: 15px;
+}
+
+
+
+
+
+.row::after {
+  content:"";
+  display: table;
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.topside {
+  height: 80px;
+  width: 100%;
+  margin-bottom: 15px;
+
+  padding-top: 15px;
+}
+
+.topside span {
+  font-size: 15px;
+  color: grey;
+}
+
+aside {
+  width: 20%;
+  height: 350px;
+
+  float: left;
+  margin-bottom: 15px;
+}
+
+
+
+
+.image {
+  object-fit: contain;
+  height: 30%;
+  width: auto;
+}
+
+.sidecenter {
+  height: 350px;
+  width: 57%;
+  margin: 0 1.5%;
+  background-color: lightblue;
+  float: left;
+  margin-bottom: 15px;
+}
+
+/* regole footer */
+
+footer {
+  height: 50px;
+  background-color: purple;
+}
